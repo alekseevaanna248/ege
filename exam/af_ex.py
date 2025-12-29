@@ -1,9 +1,9 @@
 #8
-'''
+
 def check(s):
     f = s.count('d') + s.count('e') + s.count('f')
     if f == 2:
-        if 'ee' in s or 'dd' in s or 'ff' in s:
+        if 'ee' in s or 'dd' in s or 'ff' in s or "de" in s or "ef" in s or "df" in s or "ed" in s or "fe" in s or "fd" in s:
             if '5' in s:
                 return True
     return False
@@ -15,8 +15,8 @@ for n in range(16**5, 16**6):
         c += 1
         x = r
 print(c, x)
-#111747
-'''
+#335241
+
 
 #9
 '''
@@ -109,6 +109,7 @@ print(c, masu)
 '''
 
 #24
+'''
 with open("24.txt") as f:
     A = f.readline()
 #A = "r6е79yyyiii88gg5у"
@@ -139,8 +140,10 @@ for l in range(len(Words) - ppp + 1):
     mi = min(mi, l1)
 print(mi)
 #68616
+'''
 
 #26
+'''
 ANS1 = []
 p = 3600 * 24 * 10**3
 with open ("26.txt") as f:
@@ -171,6 +174,7 @@ if B[-1][1] != p:
 delay += p - B[-1][1]
 print(c, delay)
 #1035 1058639
+'''
 
 
 
