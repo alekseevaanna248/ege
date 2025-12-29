@@ -111,7 +111,7 @@ print(c, masu)
 #24
 with open("24.txt") as f:
     A = f.readline()
-A = "r6е79yyyiii88gg5у"
+#A = "r6е79yyyiii88gg5у"
 f = 0
 s1 = [0, 0]
 Words = []
@@ -133,7 +133,7 @@ print(A[:32])
 print(Words[:9])
 
 mi = 10**7
-ppp = 2 #10**4
+ppp = 10**4
 for l in range(len(Words) - ppp + 1):
     l1 = Words[l + ppp - 1][1] - Words[l][0] + 1 + 2
     mi = min(mi, l1)
